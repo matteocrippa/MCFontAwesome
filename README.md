@@ -5,6 +5,18 @@ Font Awesome **v4.1.0** for Swift
 
 Font aliases has not been ported yet, in order to refer to a font you have to strip all the - (minus) inside its name in order to refer to that icon.
 
+Install
+============
+
+Use CocoaPods in order to quick install, you only need to add
+
+```
+pod 'MCFontAwesome'
+```
+
+to your podfile and install with **pod install** command
+
+
 Usage
 ============
 
