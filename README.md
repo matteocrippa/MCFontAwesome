@@ -1,17 +1,18 @@
 MCFontAwesome
 =============
 
-Font Awesome v4.1.0 for Swift
+Font Awesome **v4.1.0** for Swift
 
 Font aliases has not been ported yet, in order to refer to a font you have to strip all the - (minus) inside its name in order to refer to that icon.
 
 Usage
 ============
 
-Eg. I want to use fa-glass i need to write this code snippet:
+Eg. I want to use **fa-glass** i need to write this code snippet:
 
+```swift
 testLbl.font = UIFont(name: "FontAwesome", size: 20)
-testLbl.text = NSString().fontAwesomeIconWithName(FAIcon.faglass)
+testLbl.text = NSString().fontAwesomeIconWithName(FAIcon.faglass)```
 
 
 License
