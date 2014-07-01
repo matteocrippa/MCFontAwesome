@@ -15,7 +15,7 @@ Once finished edit your _plist_ file adding this key:
 
 - UIAppFonts
 
-Pay attention that a new row has been added and then edit the content adding **FontAwesome** as new supported font
+Pay attention that a new row has been added and then edit the content adding **FontAwesome.otf** as new supported font
 
 
 CocoaPods (still not available)
