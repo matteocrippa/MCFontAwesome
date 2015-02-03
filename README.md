@@ -38,7 +38,7 @@ Usage
 Eg. I want to use **fa-glass** i need to write this code snippet:
 
 ```swift
-testLbl.titleLabel.font = UIFont(name: "FontAwesome", size: 20)
+testLbl.font = UIFont(name: "FontAwesome", size: 20)
 testLbl.text = NSString().fontAwesomeIconWithName(FAIcon.faglass)
 ```
 
