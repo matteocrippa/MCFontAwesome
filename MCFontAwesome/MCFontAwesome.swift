@@ -882,13 +882,12 @@ enum FAIcon: unichar {
 
 }
 
-
 extension NSString {
-	
+    
     func fontAwesomeIconWithName(icon: FAIcon) -> String? {
         
-        let charVal = [icon.toRaw() as unichar]
+        let charVal = [icon.rawValue as unichar]
         
-        return NSString.stringWithCharacters(charVal, length: 1)
-	}
+        return NSString(characters: charVal, length: 1)
+    }
 }
